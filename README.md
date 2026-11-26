@@ -12,6 +12,12 @@ and a final mix at the platforms' loudness. Delivered in 1080p, 2K or 4K.
 Nothing here generates video with AI: the animation is code you can read and change, using your app's real logo, colours, fonts and
 screenshots. A note like "hold the check a bit longer" becomes one changed number and a new render.
 
+## The two non-negotiable rules
+1. **Every scene becomes the next through its elements** (a shape, a card, a number, a word, a colour or the device itself turns into
+   something in the next scene) - no cuts, fades or plain slides.
+2. **Every screen has its own idea and nothing repeats** - a different presentation and a different transition for each scene. The
+   template's "phone + headline + push" is only a skeleton to start from. Ideas: `references/design-rules.md` §8.
+
 ## Install
 Claude Code:
 

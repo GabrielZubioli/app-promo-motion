@@ -34,6 +34,15 @@ Portuguese guide for people is in `GUIA.pt-BR.md`).
 Requirements: Node 18+, ffmpeg, Chrome/Chromium, Python 3 with numpy + scipy. Narration and realistic effects are optional.
 No AI video/image generators and no generated realistic humans: everything comes from code, the client's assets and real screenshots.
 
+## The two non-negotiable rules
+1. **Every scene becomes the next through its elements.** A shape, a card, a number, a word, a colour or the device itself
+   leaves the current scene and turns into something in the next one. No cuts, no fades, no plain slides between scenes. If a change
+   has no element doing the transformation, it isn't designed yet.
+2. **Every screen has its own idea and nothing repeats.** Each scene gets a different presentation (layout, what the camera does,
+   how the content is shown, how the text enters) and a different transition; no two scenes in a video share the same concept or
+   the same transition. Aim for creative, professional work in every screen, not a pattern repeated with new content. The
+   template's "phone + headline + push" for each screen is only a working skeleton to replace, never the final design.
+
 ## Commands
 
 The user types `/app-promo-motion <command> [args]`. With no command, or with a plain request ("make a promo for my app"), run the
@@ -60,8 +69,10 @@ Collect the app's real material and facts, and fill `video/project.js`:
 Ask only for what is missing, in one batched message.
 
 ### storyboard
-A numbered storyboard: per scene the time range, what is on screen, what moves, the headline, the transition into the next scene
-(one element turning into the next - see the catalogue in `references/design-rules.md`), and the narration line if any. Wait for
+A numbered storyboard: per scene the time range, **its concept** (how this screen is presented differently from all the others -
+pick from the menu in `references/design-rules.md` §8 or invent), what is on screen, what moves, the headline, **the element that
+transforms into the next scene and how** (catalogue in `references/design-rules.md` §2), and the narration line if any. Before showing
+it, check the two non-negotiable rules: every change has a transforming element, and no concept or transition appears twice. Wait for
 approval. Notes that change scenes or transitions need a new storyboard; timing/size/style notes don't.
 
 ### music [file]
@@ -77,7 +88,8 @@ note round after the first build: a patch script per version (`references/engine
 ### review [times…]
 Stills at the key moments **and in the middle of every transition** (`render.mjs stills` takes video time = scene time + INTRO),
 contact sheet with `sheet.sh`, then actually look: overlapping/cropped text, empty frames, camera blurring text, counters stuck at 0,
-words not formed when the camera arrives, leftovers that vanish, stepped blur. Fix before showing. Say that stills aren't playback.
+words not formed when the camera arrives, leftovers that vanish, stepped blur - and the two rules: any scene change without a
+transforming element, or two screens that look/move alike. Fix before showing. Say that stills aren't playback.
 
 ### preview
 1080p render with final quality (`render.mjs video … --scale 1 --gpu`), mix (effects, narration if any), and give the user a
@@ -114,7 +126,8 @@ Write the post text for the video (LinkedIn, Instagram, TikTok…) from the veri
 on LinkedIn. No invented metrics or stories.
 
 ## Rules that save whole rounds
-- Transitions 0.5–0.8 s on the beat; never cross-dissolve; one element becomes the next.
+- Every scene change is a transformation made by an element; every screen has its own concept; nothing repeats.
+- Transitions 0.5–0.8 s on the beat; never cross-dissolve.
 - Directed zooms of 10–30 % with 0.6 s ramps; no fast sideways pans except a planned intro camera journey.
 - Text is animated 3D type, never a static caption; lists one item at a time, held ~1 s.
 - Backgrounds stay subtle: the travelling grid, no particles, nothing behind data.

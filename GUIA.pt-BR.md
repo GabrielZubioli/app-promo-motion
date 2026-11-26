@@ -19,6 +19,15 @@ A entrega pode ser em 1080p, 2K ou 4K.
 Não há geração de vídeo por IA. A animação é código que dá para ler e mudar, usando o logo, as cores, as fontes e os prints reais do
 seu app. Uma nota como "segura mais o check" vira um número alterado e um novo render.
 
+## As duas regras que não se negociam
+1. **Toda cena vira a próxima através dos elementos.** Uma forma, um card, um número, uma palavra, uma cor ou o próprio celular sai
+   da cena atual e se transforma em algo da próxima. Sem cortes, sem fades, sem slides simples entre cenas.
+2. **Cada tela tem a sua própria ideia, e nada se repete.** Cada cena tem uma apresentação diferente (composição, o que a câmera faz,
+   como o conteúdo aparece, como o texto entra) e uma transição diferente. O objetivo é um trabalho criativo e profissional em cada
+   tela, não um padrão repetido com conteúdo novo. O modelo neutro (celular + título + empurrar) é só um esqueleto para começar.
+
+O storyboard e a revisão conferem essas duas regras. Há um cardápio de ideias aprovadas em `references/design-rules.md` §8.
+
 ## Instalação
 No Claude Code:
 

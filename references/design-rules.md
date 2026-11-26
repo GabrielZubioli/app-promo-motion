@@ -8,6 +8,7 @@
 5. Screens, background and composition
 6. Opening and ending
 7. Review checklist
+8. Variety: a different idea for every screen
 
 ## 1. Rhythm
 - Transitions between 0.5 and 0.8 s, locked to the beat. ~0.35 s felt "too fast", ~1 s "too slow".
@@ -71,3 +72,26 @@ Give anticipation (squash ~8 % before growing) and make the viewer follow one ob
 Look at every transition at 3–4 points, not only the holds: overlapping or cropped text, an empty frame for an instant, camera
 blurring the text, a counter sitting at 0, a word not formed when the camera arrives, a piece of a screen that vanishes, stepped
 motion blur, and, on every final render, the whole file at 1 frame per second.
+
+## 8. Variety: a different idea for every screen
+Clients reject videos where every screen is "the phone again with a new headline". Each screen needs its own presentation, chosen
+for what that feature means, and its own transition. Menu of approved ideas (mix, adapt, invent):
+
+| Idea | What it looks like |
+|---|---|
+| Questionnaire in the phone | fields rise and fly away, choices check themselves, a giant word scrolls behind the phone like a marquee, the phone changes pose on every answer |
+| Progress that becomes an object | a progress bar leaves the screen, curls into a loading ring that closes with a flash and a check |
+| Colour flood | a tapped button bursts into the next scene's colour, which is that screen seen up close; the camera pulls back to reveal it |
+| Device in action | the camera leans into the part being used; rows appear, sets get checked one per beat, a timer runs |
+| Celebration | a check spins like a coin and lands as a stamp; stats cards pop in; a trophy card with a light sweep |
+| Big number | a huge number counts on the beats, then shrinks into the centre of a ring that fills; small rings for the parts below |
+| 3D strips | rows of real content cards as tilted 3D planes crossing at different depths, one row highlighted at a time with a big title |
+| Carousel | cards spin past the camera on a 3D ring, each getting its check as it passes, 3D text above |
+| Dashboard | a centred hero panel (calendar, chart) with indicators born from the motion (a light running through dates, dots flying in, bars growing) |
+| Words in space | a sentence spread through 3D space with the camera flying word to word |
+| Floating UI | the screenshot's pieces (cards, buttons, charts) lift off the phone and float in depth around it |
+| Before / after | the same screen empty, then filled, the change wiping across on a beat |
+
+Checklist per video: no presentation used twice; no transition used twice; at least one screen without the phone; the camera does
+something different in each scene (push in, pull back, orbit, fly, hold); headlines enter in different ways (rise, marquee, wave,
+words in space).

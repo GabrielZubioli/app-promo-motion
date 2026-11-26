@@ -1,4 +1,6 @@
 // Everything about the app lives here. index.html reads window.PROJECT; a first cut needs no edits to index.html.
+// The template shows every screen the same way (phone + headline + push): a skeleton to start from. A finished video gives each
+// screen its own idea and its own transition (SKILL.md: the two non-negotiable rules; references/design-rules.md §8).
 // Text marked *like this* is the key word: accent colour, script face, glow and an underline that draws itself.
 window.PROJECT = {
   app: {
