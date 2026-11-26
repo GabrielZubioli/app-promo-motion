@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="400" viewBox="0 0 1120 400">
+  <!-- placeholder logo: replace with the app's real logo (transparent SVG/PNG) and set logo.src in project.js -->
+  <rect x="20" y="60" width="280" height="280" rx="72" fill="#01D798"/>
+  <path d="M95 205 l55 55 l100 -110" fill="none" stroke="#04140e" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="340" y="232" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="150" fill="#ffffff" letter-spacing="-6">Your App</text>
+  <text x="346" y="300" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="40" fill="#01D798" letter-spacing="14">TAGLINE HERE</text>
+</svg>

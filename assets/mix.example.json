@@ -1,0 +1,22 @@
+{
+ "video": "../renders/final-4k-silent.mp4",
+ "out": "../renders/final-4k.mp4",
+ "duration": 34.4,
+ "music": {
+  "file": "../material/music.mp3",
+  "start": 21.595,
+  "volume": 0.8,
+  "fade_in": 0.4,
+  "fade_out": 0.9
+ },
+ "sfx": {
+  "file": "sfx.wav",
+  "volume": 2.15
+ },
+ "vo": {
+  "lines": "vo.json",
+  "dir": "vo",
+  "lufs": -18,
+  "boost": 2.0
+ }
+}
